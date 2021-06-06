@@ -14,6 +14,7 @@ namespace EntityLayer.Concrete
         public DateTime HeadingDateTime { get; set; }
 
         public int CategoryID { get; set; }
+        public bool HeadingStatus { get; set; }
         public virtual Category Category { get; set; }
 
         public int WriterID { get; set; }

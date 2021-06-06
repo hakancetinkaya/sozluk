@@ -72,6 +72,38 @@
     <Compile Include="Migrations\202104172117352_mig1.designer.cs">
       <DependentUpon>202104172117352_mig1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202105161407449_mig_writer_edit.cs" />
+    <Compile Include="Migrations\202105161407449_mig_writer_edit.designer.cs">
+      <DependentUpon>202105161407449_mig_writer_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105302056580_mig_writer_title_add.cs" />
+    <Compile Include="Migrations\202105302056580_mig_writer_title_add.designer.cs">
+      <DependentUpon>202105302056580_mig_writer_title_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106061136574_mig_imagesizechange.cs" />
+    <Compile Include="Migrations\202106061136574_mig_imagesizechange.designer.cs">
+      <DependentUpon>202106061136574_mig_imagesizechange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106061151342_mig_sizeimage.cs" />
+    <Compile Include="Migrations\202106061151342_mig_sizeimage.designer.cs">
+      <DependentUpon>202106061151342_mig_sizeimage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106061207429_mig_newcolonwriter.cs" />
+    <Compile Include="Migrations\202106061207429_mig_newcolonwriter.designer.cs">
+      <DependentUpon>202106061207429_mig_newcolonwriter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106061328298_mig_content_newaddcolumn.cs" />
+    <Compile Include="Migrations\202106061328298_mig_content_newaddcolumn.designer.cs">
+      <DependentUpon>202106061328298_mig_content_newaddcolumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106061338200_mig_headinhaddcolon.cs" />
+    <Compile Include="Migrations\202106061338200_mig_headinhaddcolon.designer.cs">
+      <DependentUpon>202106061338200_mig_headinhaddcolon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106061821142_mig_addMessageclass.cs" />
+    <Compile Include="Migrations\202106061821142_mig_addMessageclass.designer.cs">
+      <DependentUpon>202106061821142_mig_addMessageclass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -88,6 +120,30 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202104172117352_mig1.resx">
       <DependentUpon>202104172117352_mig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105161407449_mig_writer_edit.resx">
+      <DependentUpon>202105161407449_mig_writer_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105302056580_mig_writer_title_add.resx">
+      <DependentUpon>202105302056580_mig_writer_title_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106061136574_mig_imagesizechange.resx">
+      <DependentUpon>202106061136574_mig_imagesizechange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106061151342_mig_sizeimage.resx">
+      <DependentUpon>202106061151342_mig_sizeimage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106061207429_mig_newcolonwriter.resx">
+      <DependentUpon>202106061207429_mig_newcolonwriter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106061328298_mig_content_newaddcolumn.resx">
+      <DependentUpon>202106061328298_mig_content_newaddcolumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106061338200_mig_headinhaddcolon.resx">
+      <DependentUpon>202106061338200_mig_headinhaddcolon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106061821142_mig_addMessageclass.resx">
+      <DependentUpon>202106061821142_mig_addMessageclass.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
