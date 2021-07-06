@@ -23,3 +23,6 @@ C:\mvcprojemm\EksiSozlukMvcProject\DataAccessLayer\obj\Debug\DataAccessLayer.Mig
 C:\mvcprojemm\EksiSozlukMvcProject\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_content_newaddcolumn.resources
 C:\mvcprojemm\EksiSozlukMvcProject\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_headinhaddcolon.resources
 C:\mvcprojemm\EksiSozlukMvcProject\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_addMessageclass.resources
+C:\mvcprojemm\EksiSozlukMvcProject\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contact_add_date.resources
+C:\mvcprojemm\EksiSozlukMvcProject\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_addimagefile_table.resources
+C:\mvcprojemm\EksiSozlukMvcProject\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_admin_add.resources

@@ -52,21 +52,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IAboutDal.cs" />
+    <Compile Include="Abstract\IAdminDal.cs" />
+    <Compile Include="Abstract\IAdminLoginDal.cs" />
     <Compile Include="Abstract\ICategoryDal.cs" />
     <Compile Include="Abstract\IContactDal.cs" />
     <Compile Include="Abstract\IContentDal.cs" />
     <Compile Include="Abstract\IHeadingDal.cs" />
+    <Compile Include="Abstract\IImageFileDal.cs" />
+    <Compile Include="Abstract\IMessageDal.cs" />
     <Compile Include="Abstract\IRepository.cs" />
     <Compile Include="Abstract\IWriterDal.cs" />
     <Compile Include="Concrete\Context.cs" />
     <Compile Include="Concrete\Repositories\CategoryRepository.cs" />
     <Compile Include="Concrete\Repositories\GenericRepository.cs" />
     <Compile Include="Concrete\Repositories\WriterRepository.cs" />
+    <Compile Include="EntityFramework\EfAdminDal.cs" />
+    <Compile Include="EntityFramework\EfAdminLoginDal.cs" />
     <Compile Include="EntityFramework\EFCategoryDal.cs" />
     <Compile Include="EntityFramework\EfAboutDal.cs" />
     <Compile Include="EntityFramework\EfContentDal.cs" />
     <Compile Include="EntityFramework\EfHeadingDal.cs" />
     <Compile Include="EntityFramework\EfContactDal.cs" />
+    <Compile Include="EntityFramework\EfImageFileDal.cs" />
+    <Compile Include="EntityFramework\EfMessageDal.cs" />
     <Compile Include="EntityFramework\EfWriterDal.cs" />
     <Compile Include="Migrations\202104172117352_mig1.cs" />
     <Compile Include="Migrations\202104172117352_mig1.designer.cs">
@@ -103,6 +111,18 @@
     <Compile Include="Migrations\202106061821142_mig_addMessageclass.cs" />
     <Compile Include="Migrations\202106061821142_mig_addMessageclass.designer.cs">
       <DependentUpon>202106061821142_mig_addMessageclass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106131251167_mig_contact_add_date.cs" />
+    <Compile Include="Migrations\202106131251167_mig_contact_add_date.designer.cs">
+      <DependentUpon>202106131251167_mig_contact_add_date.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106131510188_mig_addimagefile_table.cs" />
+    <Compile Include="Migrations\202106131510188_mig_addimagefile_table.designer.cs">
+      <DependentUpon>202106131510188_mig_addimagefile_table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106131546261_mig_admin_add.cs" />
+    <Compile Include="Migrations\202106131546261_mig_admin_add.designer.cs">
+      <DependentUpon>202106131546261_mig_admin_add.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -144,6 +164,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106061821142_mig_addMessageclass.resx">
       <DependentUpon>202106061821142_mig_addMessageclass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106131251167_mig_contact_add_date.resx">
+      <DependentUpon>202106131251167_mig_contact_add_date.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106131510188_mig_addimagefile_table.resx">
+      <DependentUpon>202106131510188_mig_addimagefile_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106131546261_mig_admin_add.resx">
+      <DependentUpon>202106131546261_mig_admin_add.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

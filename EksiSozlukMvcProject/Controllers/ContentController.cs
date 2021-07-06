@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Concrete;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,13 @@ namespace EksiSozlukMvcProject.Controllers
         {
             return View();
         }
+        public ActionResult GetAllContent(string param)
+        {
+            var values = cm.GetList(param);
+            
+            return View(values);
+        }
+
         //içeriğin bağlı olduğu başlık
         public ActionResult ContentByHeading(int id)
         {

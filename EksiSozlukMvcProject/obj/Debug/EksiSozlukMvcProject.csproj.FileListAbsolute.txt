@@ -92,3 +92,7 @@ C:\mvcprojemm\EksiSozlukMvcProject\EksiSozlukMvcProject\bin\EntityFramework.SqlS
 C:\mvcprojemm\EksiSozlukMvcProject\EksiSozlukMvcProject\bin\EntityFramework.SqlServer.xml
 C:\mvcprojemm\EksiSozlukMvcProject\EksiSozlukMvcProject\bin\FluentValidation.dll
 C:\mvcprojemm\EksiSozlukMvcProject\EksiSozlukMvcProject\bin\FluentValidation.xml
+C:\mvcprojemm\EksiSozlukMvcProject\EksiSozlukMvcProject\bin\PagedList.dll
+C:\mvcprojemm\EksiSozlukMvcProject\EksiSozlukMvcProject\bin\PagedList.Mvc.dll
+C:\mvcprojemm\EksiSozlukMvcProject\EksiSozlukMvcProject\bin\PagedList.xml
+C:\mvcprojemm\EksiSozlukMvcProject\EksiSozlukMvcProject\bin\PagedList.Mvc.xml

@@ -1,0 +1,12 @@
+C:\mvcprojemm\EksiSozlukMvcProject\EntityLayer\bin\Release\EntityLayer.dll.config
+C:\mvcprojemm\EksiSozlukMvcProject\EntityLayer\bin\Release\EntityLayer.dll
+C:\mvcprojemm\EksiSozlukMvcProject\EntityLayer\bin\Release\EntityLayer.pdb
+C:\mvcprojemm\EksiSozlukMvcProject\EntityLayer\bin\Release\EntityFramework.dll
+C:\mvcprojemm\EksiSozlukMvcProject\EntityLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\mvcprojemm\EksiSozlukMvcProject\EntityLayer\bin\Release\EntityFramework.xml
+C:\mvcprojemm\EksiSozlukMvcProject\EntityLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\mvcprojemm\EksiSozlukMvcProject\EntityLayer\obj\Release\EntityLayer.csprojAssemblyReference.cache
+C:\mvcprojemm\EksiSozlukMvcProject\EntityLayer\obj\Release\EntityLayer.csproj.CoreCompileInputs.cache
+C:\mvcprojemm\EksiSozlukMvcProject\EntityLayer\obj\Release\EntityLayer.csproj.CopyComplete
+C:\mvcprojemm\EksiSozlukMvcProject\EntityLayer\obj\Release\EntityLayer.dll
+C:\mvcprojemm\EksiSozlukMvcProject\EntityLayer\obj\Release\EntityLayer.pdb
